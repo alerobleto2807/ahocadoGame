@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128377 GAME-PLAY</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles-home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" id="botonMenu"
+            aria-label="Mostrar u ocultar menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">Home&nbsp;<i class="fa fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="agregar-palabra.html">&#43Words&nbsp;<i class="fa fa-home"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <img src="images/idea.gif" alt="logo" class="idea">
+    <p class="tips">El juego consiste en adivinar la palabra... letra por letra
+        <li class="tipsDos">Tienes solo <b>6 oportunidades</b> &#128680</li>
+    </p> 
+    <main> 
+            <img src="images/img0.png" alt=""  class="poste" id="imagen">
+        <div>
+                <p class="textoGeneral" id="palabra"></p>
+          <p id="resultado"></p>
+            <div class="teclado" id="board">
+                <button >a</button>
+                <button >b</button>
+                <button >c</button>
+                <button >d</button>
+                <button >e</button>
+                <button >f</button>
+                <button >g</button>
+                <button >h</button>
+                <button >i</button>
+                <button >j</button>
+                <button >k</button>
+                <button >l</button>
+                <button >m</button>
+                <button >n</button>
+                <button >ñ</button>
+                <button >o</button>
+                <button >p</button>
+                <button >q</button>
+                <button >r</button>
+                <button >s</button>
+                <button >t</button>
+                <button >u</button>
+                <button >v</button>
+                <button >w</button>
+                <button >x</button>
+                <button >y</button>
+                <button >z</button>
+            </div>
+            <button id="play" onclick="iniciar()">Nuevo Juego</button>
+        </div>
+        <a href="home.html">
+            <button id="rendirse-buton">ME RINDO</button>
+          </a>
+    </main>
+    <script  src="js-code/add-words.js"></script>
+   
+</body>
+</html>

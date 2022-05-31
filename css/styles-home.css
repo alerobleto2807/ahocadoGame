@@ -1,0 +1,180 @@
+body{
+     background-image: url(https://fondosmil.com/fondo/36779.jpg); 
+}
+
+
+#insignia{
+    font-size: 350%;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-left: 120px;
+}
+
+.welcome{
+text-align: center;
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
+color: white;
+}
+
+.logo-premio{
+    width: 5%;
+    margin-left: 650px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.go{
+    width: 18%;
+    margin-left: 570px;
+    margin-top: 30px;
+}
+
+.botonera{
+   margin-left: 550px;
+   margin-top: 45px;
+
+}
+
+.boton-play{
+    background: linear-gradient(45deg, #cec8c5 0%, #306485 100%);
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    padding: auto;
+
+}
+
+.boton-add{
+    background: linear-gradient(45deg, #04a52c 0%, #306485 100%);
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.info{
+   margin-left: 535px;
+   color: white;
+   padding-top: 100px;
+}
+
+.nota{
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+}
+
+.roket{
+    width: 5%;
+    border-radius: 10px;
+    margin-left: 630px;
+}
+
+.mr{
+    color: white;
+}
+
+#nota{
+    margin-left: 10px;
+}
+.idea{
+    width: 5%;
+    margin-left: 650px;
+    border-radius: 10px;
+}
+
+.tips{
+    color: white;
+    margin-left: 500px;
+}
+
+.tipsDos{
+    color: white;
+    margin-left: 560px;
+}
+
+.textoGeneral{
+    /* sirve para alinear todo al centro*/
+    margin-left: 600px;
+    color: white;
+    margin-top: 10px;
+
+}
+
+.teclado{
+    width: 30%;
+    margin-top: 25px;
+    margin-left: 500px;
+}
+
+.marco{
+    color: white;
+    margin-left: 850px;
+    margin-top: 50px;
+}
+
+.poste{
+    width: 13%;
+    margin-left: 593px;
+    background-color: #e8f1f7;
+    align-items: center;
+}
+
+#play{
+    background: linear-gradient(45deg, #ca890f 0%, #306485 100%);
+    height: 30px;
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 568px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+
+#palabra span{
+    vertical-align: bottom;
+    font-size: 1em;
+    border-bottom: 2px solid white;
+    width: 15px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+  
+
+}
+
+#resultado{
+    color: white;
+    font-size: bold;
+    margin-left: 550px;
+}
+
+#guardar{
+    background: linear-gradient(45deg, #e00cab 0%, #306485 100%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 600px;
+    margin-top: 120px;
+    color: white;
+    width: 10%;
+}
+
+#rendirse-buton{
+    background: linear-gradient(45deg, #e00cab 0%, #306485 100%);
+    border: none;
+    border-radius: 5px;
+    margin-left: 635px;
+    margin-top: 10px;
+    color: white;
+    width: 10%;
+}
+
+/* .contenedor{
+    background-color: rgb(4, 110, 172);
+} */

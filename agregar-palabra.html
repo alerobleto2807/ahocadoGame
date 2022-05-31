@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#128377 ADD-WORDS</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles-home.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" id="botonMenu"
+            aria-label="Mostrar u ocultar menú">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="juego.html">Play&nbsp;<i class="fa fa-home"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="agregar-palabra.html">&#43words&nbsp;<i class="fa fa-home"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>    
+<img src="images/cohete.gif" alt="cohete" class="roket">
+
+<main class="container-fluid">
+    <div >
+        <div class="col-12 text-center">
+            <h1 class="mr">Biblioteca de palabras</h1>
+        </div>
+        <div class="col-12 text-center">
+            <div class="form-inline mb-2">
+                <label class="mr" for="newWord">Nueva Palabra:</label>
+                <input placeholder="Escribela Aqui..." class="m-2 form-control"
+                    id="nuevaPalabra" type="text" >
+                <button id="save" class="btn btn-success" onclick="agregaPalabra()" >Save</button>
+            </div>
+        </div>
+        <p class="mr" id="nota">&#128681Solo Mayusculas</p>
+        <div class="col-12 text-center">
+            <div class="table-responsive" >
+                <table class="table">
+                    <thead>
+                        <tr class="mr">
+                            <th>Words</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="mr">
+                            <td id="palabra">Tu palabra se vera aqui</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <a href="juego.html">
+        <button id="guardar" onclick="lanzar()">Guardar e iniciar</button>
+      </a>
+
+  
+</main>
+<script src="Js-code/add-words.js"></script>
+</body>
+</html>
